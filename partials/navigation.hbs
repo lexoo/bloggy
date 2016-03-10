@@ -3,7 +3,6 @@
 
     <a class="blog-logo" href="/">
       <img src="/assets/images/favicon-96x96.png" alt="placeholder+image">
-      <span>Zombeats</span>
     </a>
 
     <button type="button" class="mobile-menu" data-toggle="collapse" data-target=".navbar-collapse">
@@ -11,11 +10,15 @@
     </button>
 
     <ul id="main-menu" class="navbar-collapse collapse">
-      {{#foreach navigation}}
-      <li class="nav-{{slug}} {{#if current}} nav-current{{/if}}">
-        <a href="{{this.url}}">{{label}}</a>
+      <li>
+        <a href="https://www.lexoo.co.uk/how-it-works">How it works</a>
       </li>
-      {{/foreach}}
+      <li>
+        <a href="https://www.lexoo.co.uk/success-stories">Success stories</a>
+      </li>
+      <li>
+        <a class='request-a-quote' href="https://www.lexoo.co.uk/request-a-quote">Get free quotes</a>
+      </li>
     </ul>
   </div>
 </nav>

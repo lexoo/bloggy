@@ -5,6 +5,7 @@
     {{> meta}}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400,200" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/bloggy.css"}}" />
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/6399d100-7309-4fd4-8f33-903c7590c8e8.css"/>
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
@@ -23,11 +24,14 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <header class="modal-header">
-          <h4 class="modal-title">The latest content, once per week.</h4>
+          <h4 class="modal-title">An entrepreneur's guide to working with lawyers.</h4>
+          <h5>
+            Get insider tips in our free <a href="/lawyer-up">ebook</a>.
+          </h5>
           <a class="modal-close" data-dismiss="modal" aria-hidden="true" href="#"><span class="hidden">Close</span></a>
         </header>
         <div class="modal-body">
-          <form id="newsletter_form" action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form id="newsletter_form" action="//lexoo.us9.list-manage.com/subscribe/post?u=4f5c189d7876e0e3c2572b3b5&amp;id=9522ad2bdd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <input id="fieldEmail" type="email" value="" placeholder="Your email address" name="EMAIL" required>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c6323ba5f5f4afeec2c624d39_0ee0695955" tabindex="-1" value=""></div>
@@ -43,5 +47,7 @@
     {{ghost_foot}}
     {{> google-analytics}}
     {{> share/scripts/twitter}}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/bloggy.en_US.js"></script>
   </body>
 </html>

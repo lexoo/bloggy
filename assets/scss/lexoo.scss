@@ -1,0 +1,61 @@
+body {
+  font-family: 'Avenir W01', Helvetica, Arial, sans-serif;
+}
+
+$lexooOrange: #ffb22a;
+$lexooGreen: #007b74;
+$lexooGrey: #474747;
+
+.global-header a.request-a-quote {
+  background: $lexooOrange;
+  color: white;
+  box-sizing: border-box;
+  display: block;
+  margin: 15px 0 0 0;
+  height: 30px;
+  min-width: 70px;
+  width: auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 2px;
+  border: 2px solid $lexooOrange;
+  &:hover {
+    color: darken($lexooOrange, 10%);
+  }
+}
+
+.subscribe-banner {
+  background-color: $lexooGrey;
+  a.button {
+    background-color: $lexooGreen;
+    &:hover {
+      background-color: lighten($lexooGreen, 10%);
+    }
+  }
+}
+
+.button-add, .button-green {
+  border: none;
+  background-color: $lexooGreen;
+  color: white;
+}
+
+.button-add:not(.button-loading):hover {
+  background-color: lighten($lexooGreen, 10%);
+}
+
+.get-free-quotes {
+  background-color: white;
+  border: 2px solid $lexooOrange;
+  color: darken($lexooOrange, 10%);
+}
+
+.get-free-quotes:not(.button-loading):hover {
+  background: $lexooOrange;
+  color: white;
+}
+
+.popular-posts mark {
+  background: $lexooOrange;
+}
