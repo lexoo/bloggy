@@ -21,4 +21,5 @@ window.Bloggy = Bloggy =
 Bloggy.app.dataset.page = Bloggy.context()
 Bloggy.app.dataset.device = Bloggy.device()
 
+window.newsletter_form = "//lexoo.us9.list-manage.com/subscribe/post?u=4f5c189d7876e0e3c2572b3b5&amp;id=9522ad2bdd"
 $('#newsletter_form').attr('action', window.newsletter_form) if (window.newsletter_form)
